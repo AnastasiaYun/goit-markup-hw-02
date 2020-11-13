@@ -1,3 +1,28 @@
 body {
-  background: tomato;
+  background: #ffffff;
+  color: #212121;
+}
+
+/* Цвет основного текста #212121; */
+/* вторичный текст текста  #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #E5E5E5 */
+
+.logo {
+  color: #212121;
+}
+.logo span {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+/* site-nav */
+.site-nav a {
+  color: #212121;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: #2196f3;
 }
