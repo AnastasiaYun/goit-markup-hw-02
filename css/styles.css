@@ -1,3 +1,11 @@
+:root {
+  --primary-trxt-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --background: #2f303a;
+}
+
 body {
   background: #ffffff;
   color: #212121;
@@ -10,8 +18,9 @@ body {
 /* вторичный цвет фона #E5E5E5 */
 
 .logo {
-  color: #212121;
+  color: var(--primary-trxt-color);
 }
+
 .logo span {
   color: #2196f3;
 }
@@ -20,9 +29,25 @@ body {
 }
 /* site-nav */
 .site-nav a {
-  color: #212121;
+  color: var(--primary-trxt-color);
 }
 .site-nav :hover,
 .site-nav :focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.hero {
+  background: var(--background);
+  width: 1600px;
+  height: 600px;
+  color: var(--white-color);
+}
+.hero a {
+  color: var(--white-color);
+  direction: none;
+}
+section {
+  color: var(--title-text-color);
+}
+.section-title {
+  color: var(--primary-trxt-color);
 }
