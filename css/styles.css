@@ -22,12 +22,11 @@ body {
 }
 
 .logo span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-.list {
-  list-style: none;
-}
+
 /* site-nav */
+
 .site-nav a {
   color: var(--primary-trxt-color);
 }
@@ -35,6 +34,14 @@ body {
 .site-nav :focus {
   color: var(--accent-color);
 }
+/* .link {
+  list-style: none;
+} */
+.site-nav.current {
+  color: var(--accent-color);
+}
+
+/* Герой */
 .hero {
   background: var(--background);
   width: 1600px;
@@ -50,4 +57,9 @@ section {
 }
 .section-title {
   color: var(--primary-trxt-color);
+}
+/* Button */
+.button {
+  color: var(--white-color);
+  background: var(--accent-color);
 }
