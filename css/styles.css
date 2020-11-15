@@ -34,18 +34,22 @@ body {
 .site-nav :focus {
   color: var(--accent-color);
 }
-/* .link {
-  list-style: none;
-} */
+
 .site-nav.current {
+  color: var(--accent-color);
+}
+
+.header-mail-tel a {
+  color: var(--title-text-color);
+}
+
+.header-mail-tel :hover {
   color: var(--accent-color);
 }
 
 /* Герой */
 .hero {
   background: var(--background);
-  width: 1600px;
-  height: 600px;
   color: var(--white-color);
 }
 .hero a {
@@ -62,4 +66,15 @@ section {
 .button {
   color: var(--white-color);
   background: var(--accent-color);
+}
+/* подвал */
+.footer {
+  background: var(--background);
+}
+.footer-address {
+  color: var(--white-color);
+}
+.footer-mail-tel {
+  color: var(--white-color);
+  opacity: 60%;
 }
