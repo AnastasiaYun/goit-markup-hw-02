@@ -1,5 +1,5 @@
 :root {
-  --primary-trxt-color: #212121;
+  --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
@@ -54,7 +54,6 @@ body {
 }
 .hero a {
   color: var(--white-color);
-  direction: none;
 }
 section {
   color: var(--title-text-color);
