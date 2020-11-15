@@ -20,7 +20,6 @@ body {
 .logo {
   color: var(--primary-text-color);
 }
-
 .logo span {
   color: var(--accent-color);
 }
@@ -34,15 +33,12 @@ body {
 .site-nav :focus {
   color: var(--accent-color);
 }
-
 .site-nav.current {
   color: var(--accent-color);
 }
-
 .header-mail-tel a {
   color: var(--title-text-color);
 }
-
 .header-mail-tel :hover {
   color: var(--accent-color);
 }
@@ -61,6 +57,7 @@ section {
 .section-title {
   color: var(--primary-text-color);
 }
+
 /* Button */
 .button {
   color: var(--white-color);
