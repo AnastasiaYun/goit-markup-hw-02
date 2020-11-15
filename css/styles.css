@@ -18,7 +18,7 @@ body {
 /* вторичный цвет фона #E5E5E5 */
 
 .logo {
-  color: var(--primary-trxt-color);
+  color: var(--primary-text-color);
 }
 
 .logo span {
@@ -28,7 +28,7 @@ body {
 /* site-nav */
 
 .site-nav a {
-  color: var(--primary-trxt-color);
+  color: var(--primary-text-color);
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -59,7 +59,7 @@ section {
   color: var(--title-text-color);
 }
 .section-title {
-  color: var(--primary-trxt-color);
+  color: var(--primary-text-color);
 }
 /* Button */
 .button {
