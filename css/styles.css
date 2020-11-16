@@ -9,6 +9,8 @@
 body {
   background: #ffffff;
   color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
 }
 
 /* Цвет основного текста #212121; */
@@ -19,6 +21,18 @@ body {
 
 .logo {
   color: var(--primary-text-color);
+  font-family: Raleway, cursive;
+  letter-spacing: 0.03em;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 31px;
+  text-decoration: none;
+}
+.logo-footer {
+  color: var(--white-color);
+}
+.logo-footer span {
+  color: var(--accent-color);
 }
 .logo span {
   color: var(--accent-color);
@@ -28,6 +42,12 @@ body {
 
 .site-nav a {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+.site-nav li {
+  list-style: none;
 }
 .site-nav :hover,
 .site-nav :focus {
@@ -38,6 +58,7 @@ body {
 }
 .header-mail-tel a {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .header-mail-tel :hover {
   color: var(--accent-color);
@@ -47,6 +68,11 @@ body {
 .hero {
   background: var(--background);
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  padding: 200px 450px 280px;
 }
 .hero a {
   color: var(--white-color);
@@ -62,6 +88,12 @@ section {
 .button {
   color: var(--white-color);
   background: var(--accent-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
 }
 /* подвал */
 .footer {
