@@ -10,7 +10,6 @@ body {
   background: #ffffff;
   color: #212121;
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
 }
 
 /* Цвет основного текста #212121; */
@@ -25,21 +24,27 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logo span {
   color: var(--accent-color);
 }
 
-/* site-nav */
+/* header */
 
+.header {
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
 .site-nav a {
   color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
   text-decoration: none;
+  font-weight: 500;
 }
+
 .site-nav li {
   list-style: none;
 }
@@ -52,63 +57,31 @@ body {
 }
 .header-mail-tel a {
   color: var(--title-text-color);
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.header-mail-tel :hover {
+.header-mail-tel :hover,
+.header-mail-tel :focus {
   color: var(--accent-color);
 }
 
 /* Герой */
 .hero {
   background: var(--background);
-  color: var(--white-color);
+  text-align: center;
+  padding: 200px;
+}
+.hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.363;
   text-align: center;
-  padding: 200px 450px 280px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  letter-spacing: 6%;
-}
-.hero a {
   color: var(--white-color);
-}
-section {
-  color: var(--title-text-color);
-  font-size: 14px;
-  line-height: 24px;
-}
-.section-title {
-  color: var(--primary-text-color);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-}
-.section li {
-  list-style: none;
-}
-/* Чем мы занимаемся */
-.section-title-works,
-.section-title-command {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  color: var(--primary-text-color);
-}
-/* наша команда */
-.section-title-names {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: var(--primary-text-color);
-}
-.section-title-position {
-  font-size: 16px;
-  line-height: 19px;
 }
 /* Button */
 .button {
@@ -118,8 +91,9 @@ section {
   padding: 10px 32px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   text-decoration: none;
+  letter-spacing: 0.06em;
 }
 .button-portfolio {
   border-radius: 4px;
@@ -128,6 +102,46 @@ section {
   background-color: var(--accent-color);
   border: none;
 }
+
+/* Особенности */
+section {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.section-title-features {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+}
+.section li {
+  list-style: none;
+}
+/* Чем мы занимаемся */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* наша команда */
+.section-title-names,
+.section-title-position {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+.section-title-position {
+  color: var(--title-text-color);
+  font-weight: normal;
+}
 /* подвал */
 .footer {
   background: var(--background);
@@ -135,16 +149,22 @@ section {
 .logo-footer {
   color: var(--white-color);
 }
-.footer-address {
-  color: var(--white-color);
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   list-style: none;
 }
-.footer-mail-tel {
+.footer-address a,
+.footer-address-mail-tel a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.footer-address-mail-tel a {
   color: var(--white-color);
   opacity: 60%;
-  text-decoration: none;
 }
-.footer-mail-tel:hover {
+.footer-address-mail-tel a:hover {
   color: var(--accent-color);
   opacity: 100%;
 }
@@ -156,13 +176,15 @@ section {
   list-style: none;
 }
 .portfolio-works-title {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-works-text {
-  font-size: 16px;
-  line-height: 30px;
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
 }
