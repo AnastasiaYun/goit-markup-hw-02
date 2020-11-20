@@ -155,7 +155,7 @@ section {
   letter-spacing: 0.03em;
   list-style: none;
 }
-.footer-address a,
+.footer-address,
 .footer-address-mail-tel a {
   text-decoration: none;
   color: var(--white-color);
